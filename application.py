@@ -22,7 +22,7 @@ class Error(Exception):
 @app.route('/')
 def index():
   age = 57
-  return f"Ceci est le premier serveur de Nathan, qui a {age} ans"
+  return f"Ceci est le premier serveur de N., qui a {age} ans"
 
 
 
